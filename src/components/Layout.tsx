@@ -81,6 +81,7 @@ export function Layout(props: {
 
           <div className="mx-auto w-full max-w-2xl">
             <TextField
+              variant="outlined"
               fullWidth
               size="small"
               placeholder="Search"
