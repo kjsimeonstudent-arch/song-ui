@@ -1,6 +1,6 @@
 import type { Song, SongApiItem } from "./types";
 
-const DEFAULT_ENDPOINT = "https://song-api-xr0h.onrender.com/simeon/songs";
+const DEFAULT_ENDPOINT = "";
 
 function getSongsEndpoint(): string {
   return import.meta.env.VITE_SONGS_ENDPOINT ?? DEFAULT_ENDPOINT;
